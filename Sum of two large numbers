@@ -1,0 +1,10 @@
+// input from the Scanner in main class
+
+class Solution {
+    String findSum(String X, String Y) {
+       java.math.BigInteger  n1 = new  java.math.BigInteger(X);
+       java.math.BigInteger  n2 = new  java.math.BigInteger(Y);
+        return String.valueOf( n1.add(n2));
+    }
+    
+}
